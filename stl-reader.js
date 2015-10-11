@@ -123,7 +123,7 @@
     };
 
     return StlReader;
-  })();
+  }());
 
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = StlReader;
@@ -133,4 +133,4 @@
     window.StlReader = StlReader;
   }
 
-})();
+}());

@@ -95,7 +95,7 @@
     };
 
     return StlBinaryReader;
-  })();
+  }());
 
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = StlBinaryReader;
@@ -105,4 +105,4 @@
     window.StlBinaryReader = StlBinaryReader;
   }
 
-})();
+}());
